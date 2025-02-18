@@ -1,0 +1,13 @@
+{
+  "shell_port": 38383,
+  "iopub_port": 54581,
+  "stdin_port": 41287,
+  "control_port": 37667,
+  "hb_port": 44803,
+  "ip": "127.0.0.1",
+  "key": "859209a3-b5837d656b896d4cde6ca66b",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/desenvolvedorIO_MeuColab.ipynb"
+}
