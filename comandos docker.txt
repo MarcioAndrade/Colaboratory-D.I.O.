@@ -1,0 +1,10 @@
+docker build -t dev_python .
+
+docker images
+
+docker inspect dev_python
+
+docker run -p 8888:8888 dev_python
+
+docker run -p 8888:8888 -v C:\Source\Jupyter:/home/jovyan dev_python
+
