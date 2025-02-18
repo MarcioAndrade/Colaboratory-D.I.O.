@@ -4,7 +4,10 @@ docker images
 
 docker inspect dev_python
 
+-- primeira porta é da máquina local a segunda porta, depois dos dois pontos é a porta da imagem do docker
 docker run -p 8888:8888 dev_python
 
-docker run -p 8888:8888 -v C:\Source\Jupyter:/home/jovyan dev_python
+-- criando volume
+-- ambiente local : ambiente do container
+docker run -p 8888:8888 -v C:\Source\Repos\Colaboratory-DIO:/home/jovyan dev_python
 
